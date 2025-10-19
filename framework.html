@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Framework</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- barrra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aplicweb.html">Aplicaciones web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="framework.html">Framework</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">Créditos</a>
+                    </li>
+                    >
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container py-5">
+        <h1 style="text-align: center;">Framework</h1>
+
+        <!-- Concepto -->
+        <section id="concepto">
+            <h2 class="section-title">Concepto</h2>
+            <p>Un <strong>framework</strong> (o marco de trabajo) es un conjunto estructurado de herramientas,
+                bibliotecas, convenciones y componentes reutilizables que facilitan el desarrollo de software al
+                proporcionar una base ya definida para realizar tareas comunes. En el contexto web, un framework ayuda a
+                los desarrolladores a no empezar “desde cero”, sino a apoyarse en módulos, arquitecturas y patrones ya
+                establecidos.</p>
+            <p>Los frameworks imponen una estructura y cierta “forma de trabajar” para mantener consistencia,
+                modularidad y escalabilidad en proyectos grandes.</p>
+        </section>
+
+        <!-- Ventajas y desventajas -->
+        <section id="ventajas-desventajas">
+            <h2 class="section-title">Ventajas y Desventajas</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3 h-100">
+                        <h5 class="text-info">Ventajas</h5>
+                        <ul>
+                            <li>Ahorro de tiempo al reutilizar componentes predefinidos.
+                                :contentReference[oaicite:0]{index=0}</li>
+                            <li>Mejor mantenimiento y organización del código. :contentReference[oaicite:1]{index=1}
+                            </li>
+                            <li>Consistencia: toda la aplicación sigue patrones comunes.
+                                :contentReference[oaicite:2]{index=2}</li>
+                            <li>Seguridad integrada: muchos frameworks ya traen mecanismos para ataques comunes (ej.
+                                validaciones, encriptación). :contentReference[oaicite:3]{index=3}</li>
+                            <li>Comunidad activa y ecosistema de plugins, extensiones y soporte.
+                                :contentReference[oaicite:4]{index=4}</li>
+                            <li>Escalabilidad: facilitan crecer la aplicación con una buena arquitectura.
+                                :contentReference[oaicite:5]{index=5}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3 h-100">
+                        <h5 class="text-warning">Desventajas</h5>
+                        <ul>
+                            <li>Curva de aprendizaje: dominar un framework complejo puede requerir tiempo.</li>
+                            <li>Posible sobrecarga / peso adicional: incluye funcionalidad que no siempre se usará.
+                                :contentReference[oaicite:6]{index=6}</li>
+                            <li>Menos flexibilidad: atarse a las convenciones del framework puede limitar soluciones
+                                personalizadas.</li>
+                            <li>Riesgo de dependencia: si el framework deja de mantenerse o cambia drásticamente, migrar
+                                puede ser costoso.</li>
+                            <li>Actualizaciones quebrantadoras (breaking changes): las versiones mayores pueden romper
+                                compatibilidad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frameworks Frontend -->
+        <section id="frontend-fw">
+            <h2 class="section-title">Framework Frontend más usados</h2>
+            <p>En el desarrollo del lado del cliente (frontend), los frameworks más populares hoy en día son:</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-primary">React.js</h5>
+                            <p>Biblioteca / framework basada en componentes y <em>Virtual DOM</em>. Muy popular por su
+                                flexibilidad y ecosistema. :contentReference[oaicite:7]{index=7}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-success">Vue.js</h5>
+                            <p>Framework progresivo, fácil de integrar gradualmente en proyectos existentes.
+                                :contentReference[oaicite:8]{index=8}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-danger">Angular</h5>
+                            <p>Framework completo (incluye enrutamiento, estado, inyección de dependencias). Más
+                                estructurado. :contentReference[oaicite:9]{index=9}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Además, emergentes como <strong>Svelte</strong>, <strong>Next.js</strong> (sobre React) o
+                <strong>Nuxt.js</strong> (sobre Vue) están ganando terreno por su rendimiento y facilidad para SEO.
+                :contentReference[oaicite:10]{index=10}</p>
+        </section>
+
+        <!-- Frameworks Backend -->
+        <section id="backend-fw">
+            <h2 class="section-title">Framework Backend más utilizados</h2>
+            <p>En el desarrollo del lado del servidor (backend), algunos frameworks muy usados son:</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-info">Django (Python)</h5>
+                            <p>Framework “baterías incluidas” con ORM, panel administrativo y muchas herramientas
+                                integradas. :contentReference[oaicite:11]{index=11}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-warning">Laravel (PHP)</h5>
+                            <p>Framework elegante y expresivo; popular entre desarrolladores PHP.
+                                :contentReference[oaicite:12]{index=12}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="text-secondary">Express / Node.js</h5>
+                            <p>Framework minimalista para Node.js, ideal para construir APIs rápidas y flexibles.
+                                :contentReference[oaicite:13]{index=13}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Otros mencionables son <strong>Spring Boot</strong> (Java), <strong>Ruby on Rails</strong> (Ruby),
+                <strong>ASP.NET Core</strong> (C#). También <strong>Blazor</strong> como alternativa moderna para usar
+                C# también en interfaces web. :contentReference[oaicite:14]{index=14}</p>
+        </section>
+
+    </div>
+
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
