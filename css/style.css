@@ -1,19 +1,13 @@
 body {
-    /* 1. Establece la URL de la imagen de fondo */
     background-image: url('https://cdn.pixabay.com/photo/2022/09/13/11/30/pattern-7451714_1280.jpg'); 
     
-    /* 2. Asegura que la imagen cubra toda la ventana gráfica */
     background-size: cover; 
     
-    /* 3. Evita que la imagen se repita */
     background-repeat: no-repeat; 
     
-    /* 4. Centra la imagen */
     background-position: center center; 
     
-    /* 5. (Opcional) Fija la imagen para que el contenido se desplace sobre ella */
     background-attachment: fixed; 
     
-    /* 6. (Recomendado) Fondo de respaldo en caso de que la imagen no cargue */
-    background-color: #3f51b5; /* Un tono azul oscuro similar a la imagen */
+    background-color: #3f51b5;
 }
