@@ -3,5 +3,5 @@ Este repositorio contiene un proyecto web básico y estamos aprendiendo a utiliz
 
 | Carnet | Nombre | Fecha |
 |---------|---------|--------|
-| 20250000 | Tu nombre completo | 19/10/2025 |
+| 202106672 | Giovanni Tuquer | 19/10/2025 |
 # PP_Parcial2
